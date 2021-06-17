@@ -45,28 +45,28 @@ footer{
 }
 /*-----------------------------------------------------------*/
 .promotionML-1{
-    order: 1;
+    order: 2;
 }
 .middleML-1{
-    order:2;
+    order:1;
 }
 .middleML-2{
-    order: 3;
+    order: 4;
 }
 .promotionML-2{
-    order:4;
+    order:3;
 }
 .promotionML-3{
-    order: 5;
-}
-.middleML-3{
     order: 6;
 }
+.middleML-3{
+    order: 5;
+}
 .middleML-4{
-    order: 7;
+    order: 8;
 }
 .promotionML-4{
-    order: 8;
+    order: 7;
 }
 .promotionML-1,.promotionML-2,.promotionML-3,.promotionML-4{
     width: 50%;
