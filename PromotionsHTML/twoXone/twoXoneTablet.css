@@ -70,9 +70,6 @@ footer{
 }
 .promotionTO-1,.promotionTO-2,.promotionTO-3,.promotionTO-4{
     width: 50%;
-    height: auto;
-    display: flex;
-    flex-flow: column nowrap;
     padding: 60px 0px;
 }
     .promotionTO-1 h2,.promotionTO-2 h2,.promotionTO-3 h2, .promotionTO-4 h2{
@@ -125,11 +122,8 @@ footer{
            box-shadow: var(--Color-dark) 0px 0px 8px;
         }
 .middleTO-1,.middleTO-2,.middleTO-3,.middleTO-4{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
     width: 50%;
+    max-width: 600px;
     padding: 30px 0px;
     background-color: var(--Color-red);
 }

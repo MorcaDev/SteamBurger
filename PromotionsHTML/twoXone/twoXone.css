@@ -448,6 +448,7 @@ main{
 .promotionTO-1,.promotionTO-2,.promotionTO-3,.promotionTO-4{
     width: 100%;
     max-width: 600px;
+    margin: 0 auto;
     height: auto;
     display: flex;
     flex-flow: column nowrap;
@@ -508,7 +509,6 @@ main{
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 600px;
     padding: 30px 0px;
     background-color: var(--Color-red);
 }

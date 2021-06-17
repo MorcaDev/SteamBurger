@@ -70,9 +70,6 @@ footer{
 }
 .promotionWD-1,.promotionWD-2,.promotionWD-3,.promotionWD-4{
     width: 50%;
-    height: auto;
-    display: flex;
-    flex-flow: column nowrap;
     padding: 60px 0px;
 }
     .promotionWD-1 h2,.promotionWD-2 h2,.promotionWD-3 h2, .promotionWD-4 h2{
@@ -125,11 +122,8 @@ footer{
            box-shadow: var(--Color-dark) 0px 0px 8px;
         }
 .middleWD-1,.middleWD-2,.middleWD-3,.middleWD-4{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
     width: 50%;
+    max-width: 600px;
     padding: 30px 0px;
     background-color: var(--Color-red);
 }
