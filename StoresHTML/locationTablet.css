@@ -1,0 +1,60 @@
+header nav{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.nav-right{
+    right: 10px;
+    top: 83px;
+}
+/*---------------------------------*/
+footer{
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-slogan{
+    width: 30%;
+    max-width: 425px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.footer-media{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.footer-callcenter{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+/*---------------------------------*/
+.store1 article h2 span, .store2 article h2 span{
+    width: 60px;
+    margin-top: 60px;
+}
+.store1 article picture img, .store2 article picture img{
+    width: 400px;
+    height: 400px;
+}
+.store1 article h2, .store2 article h2{
+    font-size: var(--FontS-Large);
+}
+.store1 article p , .store2 article p{
+    font-size: var(--FontS-Small);
+    line-height: 30px;
+}
+/*BREAK POINTS*/
+@media(min-width:1000px){
+    .desplegable-promotions p span,.desplegable-products p span,.desplegable-stores p span,.desplegable-home p span, .desplegable-home p span{
+        display: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .store1 article h2, .store2 article h2{
+        font-size: var(--FontS-ExtraLarge);
+    }
+    .store1 article p , .store2 article p{
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Steam Burger</title>
+    <meta name="description" content="Your best option to eat your favorite burgers"/>
+    <meta name="robots" content="idex.html, follow"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="./ComunSources/icon.png"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="miniTablet.css" media="(min-width:560px)"/>
+    <link rel="stylesheet" href="tablet.css" media="(min-width:768px)"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <h1>Steam<br/>Burger</h1>
+                <img src="./ComunSources/burgerSticker.png" alt="SteamBurger's Logo" title="Steam Burger"/>
+            </div>
+            <div class="nav-right">
+                <button class="rightButtonStyle" id="threeLinesB"></button>
+            </div>
+        </nav>
+        <div class="header-desplegable" id="menuDesplegable">
+            <div class="desplegable-promotions">
+                <p class="hoverP" id="promotionsP">Promotions<span></span></p>
+                <button id="promotionsB"></button>
+                <div class="promotions-sections" id="promotionsMenu">
+                    <div class="sections1">
+                        <a href="./PromotionsHTML/twoXone/index.html"><span></span><p>2x1</p></a>
+                    </div>
+                    <div class="sections2">
+                        <a href="./PromotionsHTML/monthly/index.html"><span></span><p>Monthly</p></a>
+                    </div>
+                    <div class="sections3">
+                        <a href="./PromotionsHTML/weekend/index.html"><span></span><p>Weekend</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="desplegable-products">
+                <p  class="hoverP" id="productsP">Products<span></span></p>
+                <button id="productsB"></button>
+                <div class="products-sections" id="productsMenu">
+                    <div class="sections1">
+                        <a href="#royals"><span></span><p>Royals</p></a>
+                    </div>
+                    <div class="sections2">
+                        <a href="#americans"><span></span><p>AmericanS.</p></a>
+                    </div>
+                    <div class="sections3">
+                        <a href="#lights"><span></span><p>Light</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="desplegable-stores">
+                <p class="hoverP" id="storesP">Stores<span></span></p>
+                <button id="storesB"></button>
+                <div class="stores-sections" id="storesMenu">
+                    <div class="sections1">
+                        <a href="./StoresHTML/index.html"><span></span><p>Space</p></a>
+                    </div>
+                    <div class="sections2">
+                        <a href="./StoresHTML/index.html"><span></span><p>Nameku</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="desplegable-home">
+                <a href="https://morcadev.github.io/SteamBurger" class="a1"><p class="hoverP">Home<span></span></p></a>
+                <a href="https://morcadev.github.io/SteamBurger" class="a2"><button></button></a>
+            </div>
+            <div class="desplegable-car">
+                <span class="carIMG"></span>
+                <p class="hoverP"><span>S/</span>#</p>
+            </div>
+        </div>
+    </header>
+    <aside>
+        <div class="aside-comodin1st" title="Promotions" id="aside-comodin">
+            <div class="comodin__pseudoButtons">
+                <button alt="Button to show that  promotional image is the #1 position now" id="buttonA" class="button_A"></button>
+                <button alt="Button to show that  promotional image is the #2 position now" id="buttonB" class="button_B"></button>
+                <button alt="Button to show that  promotional image is the #3 position now" id="buttonC" class="button_C"></button>
+            </div>
+        </div>
+        <div class="aside-comodin2nd">
+            <h2>Our Products</h2>
+            <img class="animate__animated animate__tada animate__slower 4s animate__repeat-2" src="./ComunSources/burgerSticker.png" alt="Steam burger sticker"/>
+        </div>
+    </aside>
+    <main>
+        <section class="main-american" id="americans">
+            <h3>American<br/>Style</h3>
+            <span></span>
+            <div class="american-container">
+                <div class="american__one">
+                    <img src="./Sources/burgerPictures/american/img1.jpg" alt="Mac Steam Image"/>
+                    <p>Mac Steam</p>
+                </div>
+                <div class="american__two">
+                    <img src="./Sources/burgerPictures/american/img2.jpg" alt="Mac Burger Image"/>
+                    <p>Mac Burger</p>
+                </div>
+                <div class="american__three">
+                    <img src="./Sources/burgerPictures/american/img3.jpg" alt="Ultra Steak Image"/>
+                    <p>Ultra Steak</p>
+                </div>
+                <div class="american__four">
+                    <img src="./Sources/burgerPictures/american/img4.jpg" alt="Simple Burge image"/>
+                    <p>Simple Burger</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-royals" id="royals">
+            <h3>Royals<br/>Essence</h3>
+            <span></span>
+            <div class="royals-container">
+                <div class="royals__one">
+                    <img src="./Sources/burgerPictures/royals/img1.jpg" alt="Royal Prime Image"/>
+                    <p>Royal Prime</p>
+                </div>
+                <div class="royals__two">
+                    <img src="./Sources/burgerPictures/royals/img2.jpg" alt="Royal Prime Image"/>
+                    <p>Royal Prime</p>
+                </div>
+                <div class="royals__three">
+                    <img src="./Sources/burgerPictures/royals/img3.jpg" alt="Royal King Image"/>
+                    <p>Royal King</p>
+                </div>
+                <div class="royals__four">
+                    <img src="./Sources/burgerPictures/royals/img4.jpg" alt="Just One image"/>
+                    <p>Just One</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-light" id="lights"> 
+            <h3>Light<br/>Burgers</h3>
+            <span></span> 
+            <div class="light-container">
+                <div class="light__one">
+                    <img src="./Sources/burgerPictures/light/img4.jpg" alt="Fitness Image"/>
+                    <p>Fitness</p>
+                </div>
+                <div class="light__two">
+                    <img src="./Sources/burgerPictures/light/img2.jpg" alt="Lightest Image"/>
+                    <p>Lightest</p>
+                </div>
+                <div class="light__three">
+                    <img src="./Sources/burgerPictures/light/img3.jpg" alt="Full Vegetables Image"/>
+                    <p>Full Vegetables</p>
+                </div>
+                <div class="light__four">
+                    <img src="./Sources/burgerPictures/light/img1.jpg" alt="Light But not image"/>
+                    <p>Light But not</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-slogan">
+            <p>Our Idea</p>
+            <span></span>
+            <div class="slogan-text">
+                <span class="quoteOne" alt="Quote marker to open a passage"></span>
+                <p>We work for a happy stomach , and We will our best</p>
+                <span class="quoteTwo" alt="Quote marker to close a passage"></span>
+            </div>
+        </div>
+        <div class="footer-media">
+            <p>Follow Us</p>
+            <span></span>
+            <div class="media-insta">
+                <a href="https://www.instagram.com/morcadev/"><span alt="Instagran icon"></span></a>
+                <a href="https://www.instagram.com/morcadev/"><p>Instagram</p></a>
+            </div>
+            <div class="media-git">
+                <a href="https://github.com/MorcaDev"><span alt="Git-hub icon"></span></a>
+                <a href="https://github.com/MorcaDev"><p>Git-Hub</p></a>
+            </div>
+            <div class="media-link">
+                <a href="#"><span alt="Linkedln icon"></span></a>
+                <a href="#"><p>Linkedln</p></a>
+            </div>
+        </div>
+        <div class="footer-callcenter">
+            <p>Call-Center</p>
+            <span></span>
+            <div class="callcenter-number">
+                <p><span alt="headphones sticker"></span>+51 987-654-321</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

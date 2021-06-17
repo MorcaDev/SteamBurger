@@ -1,0 +1,165 @@
+.nav-left{
+    width: 100%;
+}
+.nav-right{
+    position: absolute;
+    right: 5px;
+    top: 70px;
+}
+/*--------------------------------------------*/
+.header-desplegable{
+    align-items: center;
+    position: relative;
+}
+.desplegable-promotions,.desplegable-products,.desplegable-stores,.desplegable-home,.desplegable-car{
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.desplegable-car{
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.desplegable-promotions .hoverP,.desplegable-products .hoverP,.desplegable-stores .hoverP{
+    width: 100%;
+    font-size: var(--FontS-Small);
+}
+.desplegable-home .a1{
+    width: 100%;
+}
+.desplegable-home .hoverP{
+    font-size: var(--FontS-Small);
+}
+.desplegable-promotions p span,.desplegable-products p span,.desplegable-stores p span,.desplegable-home p span, .desplegable-home p span{
+    width: 80%;
+    margin: 0 auto;
+}
+.desplegable-promotions button,.desplegable-products button,.desplegable-products button, .desplegable-stores button,.desplegable-home a button{
+    display: none;
+}
+/*-------*/
+.promotions-sections{
+    width: 20%;
+    margin: 0px;
+    padding: 10px 0px;
+    position: absolute;
+    left: 0px;
+    bottom: -179px;
+    display: none;
+    flex-flow: column wrap;
+background: linear-gradient(to bottom, var(--Color-orange),var(--Color-red));
+    border-right: solid 1px var(--Color-dark);
+    border-bottom: solid 1px var(--Color-dark);
+}
+.products-sections{
+    width: 20%;
+    margin: 0px;
+    padding: 10px 0px;
+    position: absolute;
+    left: 20%;
+    bottom: -179px;
+    display: none;
+    flex-flow: column wrap;
+background: linear-gradient(to bottom, var(--Color-orange),var(--Color-red));
+    border-right: solid 1px var(--Color-dark);
+    border-bottom: solid 1px var(--Color-dark);
+}
+.stores-sections{
+    width: 20%;
+    margin: 0px;
+    padding: 10px 0px;
+    position: absolute;
+    left: 40%;
+    bottom: -179px;
+    display: none;
+    flex-flow: column wrap;
+background: linear-gradient(to bottom, var(--Color-orange),var(--Color-red));
+    border-right: solid 1px var(--Color-dark);
+    border-bottom: solid 1px var(--Color-dark);
+}
+/*---------------------------------------------*/
+.promotions-sections .sections1,.promotions-sections .sections2, .promotions-sections .sections3{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.promotions-sections .sections1 p, .promotions-sections .sections2 p, .promotions-sections .sections3 p{
+    font-size: var(--FontS-Esmall);
+    line-height: 13px;
+}
+.promotions-sections .sections1 span{
+    width: 25px;
+    height: 25px;
+}
+.promotions-sections .sections2 span{
+    width: 25px;
+    height: 25px;
+}
+.promotions-sections .sections3 span{
+    width: 25px;
+    height: 25px;
+}
+/*---------------------------------------------*/
+.products-sections .sections1,.products-sections .sections2, .products-sections .sections3{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.products-sections .sections1 p, .products-sections .sections2 p, .products-sections .sections3 p{
+    font-size: var(--FontS-Esmall);
+    line-height: 13px;
+}
+.products-sections .sections1 span{
+    width: 25px;
+    height: 25px;
+}
+.products-sections .sections2 span{
+    width: 25px;
+    height: 25px;
+}
+.products-sections .sections3 span{
+    width: 25px;
+    height: 25px;
+}
+/*---------------------------------------------*/
+.stores-sections .sections1,.stores-sections .sections2{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.stores-sections .sections1 p, .stores-sections .sections2 p{
+    font-size: var(--FontS-Esmall);
+    line-height: 13px;
+}
+.stores-sections .sections1 span,.stores-sections .sections2 span{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+/*---------------------------------------------------------*/
+.store1 article picture img, .store2 article picture img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.store1 article picture span, .store2 article picture span{
+    display: block;
+    text-align: center;
+    font-size: var(--FontS-Small);
+    font-family: var(--FontF-Titles);
+}
+/*FROM JS*/
+.show{
+    display:flex;
+}

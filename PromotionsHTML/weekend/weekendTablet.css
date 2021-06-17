@@ -1,0 +1,169 @@
+header nav{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.nav-right{
+    right: 10px;
+    top: 83px;
+}
+/*---------------------------------*/
+footer{
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-slogan{
+    width: 30%;
+    max-width: 425px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.footer-media{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.footer-callcenter{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+/*---------------------------------*/
+.store1 article h2 span, .store2 article h2 span{
+    width: 60px;
+    margin-top: 60px;
+}
+.store1 article picture img, .store2 article picture img{
+    width: 400px;
+    height: 400px;
+}
+.store1 article h2, .store2 article h2{
+    font-size: var(--FontS-Large);
+}
+.store1 article p , .store2 article p{
+    font-size: var(--FontS-Small);
+    line-height: 30px;
+}
+/*------------------------------------------------------------------*/
+.promotionWD-1{
+    order: 1;
+}
+.middleWD-1{
+    order:2;
+}
+.middleWD-2{
+    order: 3;
+}
+.promotionWD-2{
+    order:4;
+}
+.promotionWD-3{
+    order: 5;
+}
+.middleWD-3{
+    order: 6;
+}
+.middleWD-4{
+    order: 7;
+}
+.promotionWD-4{
+    order: 8;
+}
+.promotionWD-1,.promotionWD-2,.promotionWD-3,.promotionWD-4{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 60px 0px;
+}
+    .promotionWD-1 h2,.promotionWD-2 h2,.promotionWD-3 h2, .promotionWD-4 h2{
+        text-align: center;
+        font-size: var(--FontS-Medium);
+        color: var(--Color-red);
+    }
+        .promotionWD-1 h2 span,.promotionWD-2 h2 span,.promotionWD-3 h2 span, .promotionWD-4 h2 span{
+            display: block;
+            width: 35px;
+            height: 1.5px;
+            margin: 0px auto;
+            margin-top: 30px;
+            background-color: var(--Color-red);
+        }
+    .promotionWD-1 img,.promotionWD-2 img,.promotionWD-3 img, .promotionWD-4 img{
+        width: 70%;
+        height: 250px;
+        margin : 40px auto;
+    }
+    .promotionWD-1 div,.promotionWD-2 div,.promotionWD-3 div,.promotionWD-4 div{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-flow:column nowrap;
+        margin: 0 auto;
+    }
+        .promotionWD-1 div h3,.promotionWD-2 div h3,.promotionWD-3 div h3,.promotionWD-4 div h3{
+            margin-bottom: 10px;
+            font-size: var(--FontS-Small);
+            color: bold;
+        }
+        .promotionWD-1 div p,.promotionWD-2 div p,.promotionWD-3 div p,.promotionWD-4 div p{
+            font-size: var(--FontS-Esmall);    
+        }
+    .promotionWD-1 button, .promotionWD-2 button, .promotionWD-3 button,.promotionWD-4 button{
+        width: 150px;
+        height: 50px;
+        margin: 0px auto;
+        margin-top: 40px;
+        background-color: var(--Color-orange);
+        color: var(--Color-red);
+        border: solid 2px var(--Color-red);
+        border-radius: 20px;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+        .promotionWD-1 button:hover, .promotionWD-2  button:hover, .promotionWD-3  button:hover,.promotionWD-4  button:hover{
+           border: solid 4px var(--Color-red);
+           box-shadow: var(--Color-dark) 0px 0px 8px;
+        }
+.middleWD-1,.middleWD-2,.middleWD-3,.middleWD-4{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 30px 0px;
+    background-color: var(--Color-red);
+}
+    .middleWD-1 img,.middleWD-2 img,.middleWD-3 img,.middleWD-4 img{
+        width: 120px;
+        height: 120px;
+    }
+
+/*BREAK POINTS*/
+@media(min-width:1000px){
+    .desplegable-promotions p span,.desplegable-products p span,.desplegable-stores p span,.desplegable-home p span, .desplegable-home p span{
+        display: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .store1 article h2, .store2 article h2{
+        font-size: var(--FontS-ExtraLarge);
+    }
+    .store1 article p , .store2 article p{
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+}
+@media(min-width:1200px){
+    .promotionWD-1{
+        border-left: 1px solid var(--Color-red);
+    }
+    .promotionWD-2{
+        border-right: 1px solid var(--Color-red);
+    }
+    .promotionWD-3{
+        border-left: 1px solid var(--Color-red);
+    }
+    .promotionWD-4{
+        border-right: 1px solid var(--Color-red);
+    }
+}

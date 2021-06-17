@@ -1,0 +1,113 @@
+header nav{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.nav-right{
+    right: 10px;
+    top: 83px;
+}
+    /*---------------------------------*/
+aside{
+    height: 400px;
+}
+.aside-comodin1st{
+    width: 50%;
+}
+.aside-comodin2nd{
+    width: 50%;
+}
+.comodin__pseudoButtons{
+    padding-bottom: 25px;
+}
+.comodin__pseudoButtons button{
+    width: 25px;
+    height: 25px;
+    margin: 0px 12px;
+}
+    /*-----------------------------------*/
+main{
+    padding-bottom:200px;
+}
+    /*-----------------------------------*/
+.main-american h3, .main-royals h3, .main-light h3{
+    margin-bottom: 120px;
+}
+.main-american span, .main-royals span, .main-light span{
+    margin-bottom: 120px;
+    width: 95%;
+}
+    /*---------------------------------*/
+.american__one,.american__two,.american__three,.american__four,.royals__one,.royals__two,.royals__three,.royals__four,.light__one,.light__two,.light__three,.light__four{
+    width: 22%;
+    height: 325px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+.american__one img, .american__two img,.american__three img,.american__four img,.royals__one img, .royals__two img,.royals__three img,.royals__four img,.light__one img, .light__two img,.light__three img,.light__four img{
+    height: 250px;
+    margin-bottom: 15px;
+}
+.american__four p,.light__three p{
+    font-size: 2rem;
+    font-weight: 525;
+    /*soluciona el problema de centrado*/
+}
+    /*---------------------------------*/
+footer{
+    display: flex;
+    flex-flow: row wrap;
+}
+.footer-slogan{
+    width: 30%;
+    max-width: 425px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.footer-media{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.footer-callcenter{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+/*BREAK POINTS*/
+@media(min-width:800px){
+    .american__four p{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+}
+@media(min-width:845px){
+    .light__three p{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+}
+@media(min-width:1000px){
+    .desplegable-promotions p span,.desplegable-products p span,.desplegable-stores p span,.desplegable-home p span, .desplegable-home p span{
+        display: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/*CLASSES FROM JS*/
+.imageOne{
+    background: url("./Sources/asidePictures/img1Desktop.jpg")no-repeat center; 
+    background-size: 100% 100%;
+}
+.imageTwo{
+    background: url("./Sources/asidePictures/img2Desktop.jpg")no-repeat center;
+    background-size: 100% 100%;
+}
+.imageThree{
+    background: url("./Sources/asidePictures/img3Desktop.jpg")no-repeat center;
+    background-size: 100% 100%;
+}
+.opacityShow{
+    opacity: 0.9;
+}
