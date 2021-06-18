@@ -149,15 +149,15 @@ footer{
 }
 @media(min-width:1200px){
     .promotionML-1{
-        border-left: 1px solid var(--Color-red);
+        border-right: 1px solid var(--Color-red);
     }
     .promotionML-2{
-        border-right: 1px solid var(--Color-red);
-    }
-    .promotionML-3{
         border-left: 1px solid var(--Color-red);
     }
-    .promotionML-4{
+    .promotionML-3{
         border-right: 1px solid var(--Color-red);
+    }
+    .promotionML-4{
+        border-left: 1px solid var(--Color-red);
     }
 }
